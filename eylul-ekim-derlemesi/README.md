@@ -23,7 +23,8 @@ Yorumlarını issue olarak açabilir ya da metinde doğrudan değişiklik önere
 - **Yazı tipleri:** Literata ve Figtree, önceki taslaktan geliyor. Sitenin tema dosyalarıyla karşılaştırılmalı.
 - **Site bağlantıları:** Alt bilgideki Ekip, Etkinlikler, LinkedIn ve İletişim bağlantıları şimdilik ana sayfaya gidiyor. "Ara" düğmesi ve TR/EN seçimi çalışmıyor.
 - **#2, Banks–Schiff:** Teklifin aşaması "destek açıklandı" olarak yazıldı; kontrol edilmeli.
-- **#1, Medicare:** Su altı şeklinde duyuru tarihi 24 Eylül, metinde 26 Eylül tarihli haberler geçiyor.
+- **#1, Medicare:** Su altı şeklinde duyuru tarihi metne ve ABC haberine uyacak şekilde 26 Eylül'e (100 gün) çekildi; OpenAI'ın kendi tarihiyle karşılaştırılmalı.
 - **#1, collusion.wiki:** Bu seride yaklaşık 17 bin paylaşım, Hugging Face yazısında 18 bin.
 - **Ekim kaynakları:** Ekim'e dair bağlantıların çoğu haber kaynağı. OpenAI, METR, Wikimedia ve Meta'nın kendi yazılarıyla karşılaştırılmalı.
 - **Sözlük:** "Sürü (swarm)" ve "filo (fleet)" Sözlük'te yok; eklenebilir.
+- **#3, GPT-6.1 Astra:** Bölüm, Sayhan'ın Google Doc'taki uzun metnine (WSJ, iki sorun, temel model, sistem kartı yok, Zvi) döndü. "Henüz sistem kartı yayımlamadı" cümlesi yayından önce kontrol edilmeli.
