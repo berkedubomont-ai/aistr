@@ -661,6 +661,17 @@ h2.sh:hover .anc,.sec-e h3:hover .anc,.anc:focus-visible{color:var(--accent)}
 .mcards .mcard .md{display:flex;align-items:center;gap:6px}
 .mcards .mn{font-style:normal;width:18px;height:18px;border-radius:50%;display:inline-grid;place-items:center;background:var(--s-model);color:#fff;font-size:10.5px;font-weight:800}
 @media (max-width:560px){.mtl{height:110px}.mtl-line{top:86px}.mtl-t{top:92px;font-size:11px}.mtl-d{top:calc(77px - var(--o,0) * 20px);width:18px;height:18px;margin-left:-9px;font-size:10px}}
+/* maths ladder with seven results: the column layout is too tight inside the article width, so cards go in two columns with the level bars */
+.ladder[style*="--n:7"] .steps{display:none}
+.ladder[style*="--n:7"] .rungs{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px;border-top:0}
+.ladder[style*="--n:7"] .rung{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start}
+.ladder[style*="--n:7"] .rung .card{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--s-swarm);border-radius:10px;padding:11px 12px}
+.ladder[style*="--n:7"] .rung:last-child .card{border-right:1px solid var(--rule)}
+.ladder[style*="--n:7"] .rung .lvl{display:flex;flex-direction:column-reverse;gap:3px;padding-top:4px}
+.ladder[style*="--n:7"] .rung .lvl i{display:block;height:10px;border-radius:2px;background:color-mix(in srgb,var(--s-swarm) 14%,transparent);border:1px solid color-mix(in srgb,var(--s-swarm) 35%,transparent)}
+.ladder[style*="--n:7"] .rung .lvl i.on{background:var(--s-swarm);border-color:var(--s-swarm)}
+.ladder[style*="--n:7"] .rung .lvl span{font-family:var(--f-ui);font-size:10.5px;font-weight:700;color:var(--muted);line-height:1.2;order:-1;margin-top:4px}
+@media (max-width:860px){.ladder[style*="--n:7"] .rungs{grid-template-columns:minmax(0,1fr)}}
 
 /* ===================== AISTR site style: purple accent on cream, the real logo ===================== */
 :root{
