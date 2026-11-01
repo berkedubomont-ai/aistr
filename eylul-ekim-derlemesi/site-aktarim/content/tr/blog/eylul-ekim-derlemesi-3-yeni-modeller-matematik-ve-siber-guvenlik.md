@@ -1,13 +1,16 @@
 ---
+translationKey: "blog-eylul-ekim-derlemesi-3"
 title: "Eylül–Ekim derlemesi #3: Yeni modeller, matematik ve siber güvenlik"
-date: 2026-11-03T09:00:00+03:00   # [yayın tarihi] gerçek yayın günüyle değiştirilecek
-draft: true
+date: "2026-11-03"   # [yayın tarihi] gerçek yayın günüyle değiştirilecek
 slug: "eylul-ekim-derlemesi-3-yeni-modeller-matematik-ve-siber-guvenlik"
+draft: true
 description: "Uyarılara rağmen yeni modeller çıktı, OpenAI bir modelin yayımını iptal etti ve iç modellerden matematikte yeni sonuçlar geldi."
-translationKey: "eylul-ekim-derlemesi-3"
-image: "/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-3-yeni-modeller.webp"
-authors: ["Berke Çelik", "Sayhan Yalvaçer"]   # alan adı, sitedeki yazılardaki yazar alanıyla aynı olmalı
+author: "Berke Çelik ve Sayhan Yalvaçer"
 editor: ""   # [editör]
+contributors: []
+image: "/uploads/2026/11/eylul-ekim-derlemesi-3-kapak.webp"
+thumb_image: "/uploads/2026/11/eylul-ekim-derlemesi-3-kapak-thumb.webp"
+social_image: true
 categories: ["Blog"]
 ---
 
@@ -22,7 +25,7 @@ Eylül ve Ekim'i üç yazıda derliyoruz. [İlk yazıda](/tr/blog/eylul-ekim-der
 
 Laboratuvarların içinden gelen uyarılar yeni modellerin çıkışını yavaşlatmadı. Anthropic 1 Eylül'de [Claude Fable 5.1 ve Mythos 5.1'i](https://www.anthropic.com/claude-fable-and-mythos-5-1) duyurdu; Mythos 5.1'e yalnızca doğrulanmış siber güvenlik ve yaşam bilimleri uzmanları erişebiliyor. İki gün sonra OpenAI, “dünyanın en zeki ve en hizalı modeli” olarak tanıttığı [GPT-6 Astra'yı](https://openai.com/index/gpt-6-astra/) yayımladı. OpenAI, Astra'nın siber güvenlik alanında kendi tanımladığı “kritik” yetenek eşiğine ulaştığını da açıkladı ve [ileri siber güvenlik işlevlerine erişimi](https://openai.com/index/path-to-astra/) başlangıçta küçük bir test grubuyla sınırladı.
 
-![Sekiz yeni model, yayımlanmayan iki model](/cms-uploads/2026/11/eylul-ekim-derlemesi/3-yeni-modeller.webp)
+![Sekiz yeni model, yayımlanmayan iki model](/uploads/2026/11/eylul-ekim-derlemesi-3-yeni-modeller.webp)
 
 *Kaynak: [Anthropic'in Fable 5.1 ve Mythos 5.1 duyurusu](https://www.anthropic.com/claude-fable-and-mythos-5-1), [OpenAI'ın GPT-6 Astra duyurusu](https://openai.com/index/gpt-6-astra/), [OpenAI'ın Astra erişim notu](https://openai.com/index/path-to-astra/), [OpenAI'ın Navier–Stokes duyurusu](https://openai.com/index/navier-stokes-solution/), [Anthropic'in Opus 5.5 duyurusu](https://www.anthropic.com/claude-opus-5-5), [Anthropic'in Sonnet 5.5 duyurusu](https://www.anthropic.com/claude-sonnet-5-5), [9to5Google'ın GPT-6.1 Astra haberi](https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns/), [OpenAI'ın GPT-6.1 Sol duyurusu](https://openai.com/index/introducing-gpt-6-1-sol/), [Google'ın Gemini 4 Argon duyurusu](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/), [Meta'nın Muse Spark Open duyurusu](https://research.meta.ai/blog/muse-spark-open)*
 
@@ -66,7 +69,7 @@ Ekim'de bu söylentiyle örtüşüyor gibi görünen sonuçlar geldi. OpenAI 6 E
 
 26 Ekim'de OpenAI, bir iç modelinin 1999'da ortaya atılan [Üstel Zaman Hipotezi'nin](https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills) (Exponential Time Hypothesis, ETH) yanlış olduğunu gösterdiğini, Kakeya ve Yang–Mills üzerine de sonuçlar elde ettiğini duyurdu. Anthropic birkaç saat sonra, 27 Ekim'de, Claude'un bulduğu [benzer bir ETH sonucunu](https://github.com/anthropics/formal-math/tree/main/eth) yayımladı. İki sonuç da henüz bağımsız olarak doğrulanmadı. OpenAI'ın paylaştığı Lean ispatı makaledekinden daha zayıf bir sınırı kapsıyor; [bağımsız incelemeyi](https://openai.com/index/building-scientific-understanding-with-academic-communities/) ise hipotezi ilk ortaya atanlardan ikisi ve MIT'den bir araştırmacı yürütüyor.
 
-![İki yılda olimpiyattan açık problemlere](/cms-uploads/2026/11/eylul-ekim-derlemesi/3-matematikten-sifrelemeye.webp)
+![İki yılda olimpiyattan açık problemlere](/uploads/2026/11/eylul-ekim-derlemesi-3-matematikten-sifrelemeye.webp)
 
 *Kaynak: [Google DeepMind'ın IMO 2024 duyurusu](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/), [Google DeepMind'ın IMO 2025 duyurusu](https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/), [Anthropic'in şifreleme raporu](https://www.anthropic.com/research/discovering-cryptographic-weaknesses), [OpenAI'ın Navier–Stokes duyurusu](https://openai.com/index/navier-stokes-solution/), [Axios'un haberi](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit), [Aaronson'ın yazısı](https://scottaaronson.blog/?p=10062), [NYU Shanghai RITS aktarımı](https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/), [OpenAI'ın 6 Ekim matematik duyurusu](https://openai.com/index/sharing-ai-progress-in-mathematics/), [The Next Web'in haberi](https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills), [OpenAI'ın 26 Ekim duyurusu](https://openai.com/index/building-scientific-understanding-with-academic-communities/)*
 

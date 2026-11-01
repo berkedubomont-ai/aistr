@@ -1,23 +1,28 @@
 # Eylül–Ekim derlemesi: siteye aktarım dosyaları
 
-Üç yazının doks-site (Hugo) yapısına uygun hâli. Klasörler, repodaki yerleriyle aynı:
+Üç yazının doks-site (Hugo) yapısına uygun hâli. Klasörler, doks-site reposundaki yerleriyle aynı; dosyaları olduğu gibi kopyalamak yeterli:
 
-| Dosya | Repoda gideceği yer |
+| Dosya | doks-site'ta gideceği yer |
 |---|---|
-| `content/tr/blog/eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md` | Blog (TR) koleksiyonunun klasörü |
+| `content/tr/blog/eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md` | `content/tr/blog/` |
 | `content/tr/blog/eylul-ekim-derlemesi-2-iceriden-gelen-kaygilar-ve-siyaset.md` | aynı |
 | `content/tr/blog/eylul-ekim-derlemesi-3-yeni-modeller-matematik-ve-siber-guvenlik.md` | aynı |
-| `static/cms-uploads/2026/11/eylul-ekim-derlemesi/*.webp` | `static/cms-uploads/` altına |
-
-Repoyu göremediğim için iki şeyi senin kontrol etmen gerekiyor: blog yazılarının klasörü (`content/tr/blog/` mi, başka bir yer mi) ve ön bilgi (front matter) alan adları.
+| `static/uploads/2026/11/eylul-ekim-derlemesi-*` | `static/uploads/2026/11/` |
 
 ## Ön bilgi alanları
 
-Her dosyanın başında CMS'teki alanlar var: `title`, `date`, `draft`, `slug`, `description`, `translationKey`, `image`. Yazar ve editör için `authors` ve `editor` yazdım; sitedeki yazılarda bu alanların adı farklıysa değiştirmek yeterli.
+Alanlar sitedeki yazılarla aynı (örnek: `openai-hugging-face-olayi.md`): `translationKey`, `title`, `date`, `slug`, `draft`, `description`, `author`, `editor`, `contributors`, `image`, `thumb_image`, `social_image`, `categories`.
 
-- **Taslak:** Üç yazı da `draft: true`. Yayına almak için bu satırı `false` yapın.
-- **Tarih:** Tarihler yer tutucu. Gerçek yayın günüyle değiştirilecek.
+- **Taslak:** Üç yazı da `draft: true`. Site `hugo` komutuyla taslakları derlemediği için bu hâlde yayına çıkmazlar. Yayına almak için `false` yapın.
+- **Tarih:** Tarihler yer tutucu. Gelecek tarihli yazılar da derlenmiyor, bu yüzden gerçek yayın günüyle değiştirilmeli.
 - **Editör:** Boş.
+
+## Görseller
+
+- Görseller sitedeki düzene göre `/uploads/2026/11/` altında. Küçük resimler (`-thumb`, 480/768/960) ve AVIF/JPG kopyaları sitenin kendi `scripts/generate-thumbnails.py` betiğiyle üretildi, yani Cloudflare derlemesi bu adımı atlasa da dosyalar hazır.
+- #1 ve #2'nin şekilleri ve kapakları sitenin tasarım sistemine (DESIGN.md) göre yeniden çizildi: Bone/Card kâğıt zemin, keskin köşeler, gölgesiz; IBM Plex Sans ve büyük rakamlarda Rajdhani; veri için Seal Violet (#4F00E9), ikinci renk olarak Ink Soft ve Violet Soft. #2'nin kapağındaki halkalar sitenin halka motifiyle uyumlu.
+- #3'ün kapağı ve şekilleri henüz eski renklerde (yeşil, yuvarlak köşeli kartlar).
+- Kapak görselleri 1600×900.
 
 ## Metin
 
@@ -29,10 +34,8 @@ Her dosyanın başında CMS'teki alanlar var: `title`, `date`, `draft`, `slug`, 
 
 ## Şekiller
 
-- Etkileşimli şekiller, kaynak satırları şeklin altına bağlantı olarak yazılmış görsellere dönüştürüldü.
-- Telefonda okunabilsin diye #1 ve #2'deki yazı ağırlıklı şekiller Markdown'a çevrildi: ajan grupları ve olay tarihleri tablo, Tencent zaman çizelgesi liste. Görsellerde artık yalnızca grafik ve kısa etiketler var.
+- Telefonda okunabilsin diye #1 ve #2'de yazı ağırlıklı şekiller Markdown'a çevrildi: olay tarihleri tablo, ajan grupları ve Tencent zaman çizelgesi liste. Görsellerde yalnızca grafik ve kısa etiketler var.
+- Olay tablosu telefon genişliğinde (390 px) sitenin yazı tipiyle taşmadan sığıyor.
 - #2'deki 16 adımlık siyaset şekli ve #3'ün şekilleri hâlâ uzun görseller; telefonda okunmaları zor, sonra ele alınacak.
-- Tabloların sitede, özellikle telefonda, nasıl göründüğüne bakmak gerekiyor. Şablonda tablo stili yoksa birkaç satır CSS yeter.
 - "Laboratuvarların içinden" bölümündeki 15 kişilik liste görsel değil, düz liste.
-- Etkileşimli sürümler `berkedubomont-ai/aistr` reposunda duruyor. Yazıların içine HTML konabiliyorsa onlar da eklenebilir.
-- Kapak görselleri 1600×900.
+- Etkileşimli sürümler `berkedubomont-ai/aistr` reposunda duruyor.

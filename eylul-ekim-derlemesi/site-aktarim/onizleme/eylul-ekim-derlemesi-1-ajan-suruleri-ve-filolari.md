@@ -1,12 +1,12 @@
 > Önizleme: siteye girecek dosya [`content/tr/blog/eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md`](../content/tr/blog/eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md). Bu kopya yalnızca GitHub'da görseller görünsün diye var.
 
-Blog · [yayın tarihi] · Yazar: Berke Çelik, Sayhan Yalvaçer · Editör: [editör]
+Blog · [yayın tarihi] · Yazar: Berke Çelik ve Sayhan Yalvaçer · Editör: [editör]
 
 # Eylül–Ekim derlemesi #1: Ajan sürüleri ve filoları
 
 *Hugging Face olayının Mayıs'a uzanan izleri, laboratuvarların yeni raporları ve Tencent'in bulut altyapısında çalışan bir ajan filosu.*
 
-![Kapak](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-1-ajan-suruleri.webp)
+![Kapak](../static/uploads/2026/11/eylul-ekim-derlemesi-1-kapak.webp)
 
 Yapay zekâ güvenliğindeki gelişmeleri normalde konu özelinde yazılarla ve bültenimizle paylaşıyoruz. Eylül ve Ekim'de gelişmelerin hızını bu düzene sığdırmak pek mümkün olmadı. Bu yüzden iki ayı üç yazıda derledik. Bu ilk yazıda ajan sürülerini ve filolarını, ikincisinde laboratuvarların içinden gelen kaygıları ve siyaseti, üçüncüsünde de yeni modelleri, matematikteki sonuçları ve siber güvenliği anlatıyoruz.
 
@@ -22,6 +22,10 @@ Eylül ve Ekim, Hugging Face olayının tek örnek olmadığını gösterdi. Bu 
 ## Sürü mü, filo mu?
 
 Hugging Face saldırısındaki sürüde yaklaşık 1.200 ajan vardı. OpenAI'ın 8 Eylül'de duyurduğu [Navier–Stokes ispatında](eylul-ekim-derlemesi-3-yeni-modeller-matematik-ve-siber-guvenlik.md) ise yaklaşık on bin ajan 88 saat birlikte çalıştı; bu filoyu şirket bilerek kurmuştu. Tencent'in altyapısındaki filoda kaç ajan olduğu bilinmiyor.
+
+![Dört ajan grubu, aynı ölçekte](../static/uploads/2026/11/eylul-ekim-derlemesi-1-ajan-gruplari.webp)
+
+*Her daire bir ajan; dört çizim aynı ölçekte. Ajan sayısı açıklanmayan iki olayda her kare 10 paylaşım ya da 10 deneme.*
 
 Sürüyle filoyu ayıran iki soru var: Ajanlar kendi aralarında haberleşti mi, ajanları çalıştıran şirket o sırada biliyor muydu?
 
@@ -66,7 +70,7 @@ Benzer sorunlar yalnızca OpenAI'da görülmedi. Anthropic 9 Eylül'de, siber g�
 
 METR'in incelemesinin Kasım başında tamamlanması bekleniyor.
 
-![Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/1-olaylar-ne-zaman-duyuldu.webp)
+![Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu](../static/uploads/2026/11/eylul-ekim-derlemesi-1-olaylar-ne-zaman-duyuldu.webp)
 
 *Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu. Derinlik, olayın başlamasıyla duyulması arasında geçen gün sayısı.*
 

@@ -1,13 +1,16 @@
 ---
+translationKey: "blog-eylul-ekim-derlemesi-1"
 title: "Eylül–Ekim derlemesi #1: Ajan sürüleri ve filoları"
-date: 2026-11-01T09:00:00+03:00   # [yayın tarihi] gerçek yayın günüyle değiştirilecek
-draft: true
+date: "2026-11-01"   # [yayın tarihi] gerçek yayın günüyle değiştirilecek
 slug: "eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari"
+draft: true
 description: "Hugging Face olayının Mayıs'a uzanan izleri, laboratuvarların yeni raporları ve Tencent'in bulut altyapısında çalışan bir ajan filosu."
-translationKey: "eylul-ekim-derlemesi-1"
-image: "/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-1-ajan-suruleri.webp"
-authors: ["Berke Çelik", "Sayhan Yalvaçer"]   # alan adı, sitedeki yazılardaki yazar alanıyla aynı olmalı
+author: "Berke Çelik ve Sayhan Yalvaçer"
 editor: ""   # [editör]
+contributors: []
+image: "/uploads/2026/11/eylul-ekim-derlemesi-1-kapak.webp"
+thumb_image: "/uploads/2026/11/eylul-ekim-derlemesi-1-kapak-thumb.webp"
+social_image: true
 categories: ["Blog"]
 ---
 
@@ -25,6 +28,10 @@ Eylül ve Ekim, Hugging Face olayının tek örnek olmadığını gösterdi. Bu 
 ## Sürü mü, filo mu?
 
 Hugging Face saldırısındaki sürüde yaklaşık 1.200 ajan vardı. OpenAI'ın 8 Eylül'de duyurduğu [Navier–Stokes ispatında](/tr/blog/eylul-ekim-derlemesi-3-yeni-modeller-matematik-ve-siber-guvenlik/) ise yaklaşık on bin ajan 88 saat birlikte çalıştı; bu filoyu şirket bilerek kurmuştu. Tencent'in altyapısındaki filoda kaç ajan olduğu bilinmiyor.
+
+![Dört ajan grubu, aynı ölçekte](/uploads/2026/11/eylul-ekim-derlemesi-1-ajan-gruplari.webp)
+
+*Her daire bir ajan; dört çizim aynı ölçekte. Ajan sayısı açıklanmayan iki olayda her kare 10 paylaşım ya da 10 deneme.*
 
 Sürüyle filoyu ayıran iki soru var: Ajanlar kendi aralarında haberleşti mi, ajanları çalıştıran şirket o sırada biliyor muydu?
 
@@ -69,7 +76,7 @@ Benzer sorunlar yalnızca OpenAI'da görülmedi. Anthropic 9 Eylül'de, siber g�
 
 METR'in incelemesinin Kasım başında tamamlanması bekleniyor.
 
-![Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu](/cms-uploads/2026/11/eylul-ekim-derlemesi/1-olaylar-ne-zaman-duyuldu.webp)
+![Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu](/uploads/2026/11/eylul-ekim-derlemesi-1-olaylar-ne-zaman-duyuldu.webp)
 
 *Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu. Derinlik, olayın başlamasıyla duyulması arasında geçen gün sayısı.*
 

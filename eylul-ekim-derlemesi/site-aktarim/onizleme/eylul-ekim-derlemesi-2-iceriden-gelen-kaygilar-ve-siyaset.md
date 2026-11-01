@@ -1,12 +1,12 @@
 > Önizleme: siteye girecek dosya [`content/tr/blog/eylul-ekim-derlemesi-2-iceriden-gelen-kaygilar-ve-siyaset.md`](../content/tr/blog/eylul-ekim-derlemesi-2-iceriden-gelen-kaygilar-ve-siyaset.md). Bu kopya yalnızca GitHub'da görseller görünsün diye var.
 
-Blog · [yayın tarihi] · Yazar: Berke Çelik, Sayhan Yalvaçer · Editör: [editör]
+Blog · [yayın tarihi] · Yazar: Berke Çelik ve Sayhan Yalvaçer · Editör: [editör]
 
 # Eylül–Ekim derlemesi #2: İçeriden gelen kaygılar ve siyaset
 
 *Laboratuvar çalışanlarının uyarıları, Amodei'nin yavaşlama çağrısı ve Washington ile Pekin'in birbirinden farklı yanıtları.*
 
-![Kapak](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-2-kaygilar-siyaset.webp)
+![Kapak](../static/uploads/2026/11/eylul-ekim-derlemesi-2-kapak.webp)
 
 Eylül ve Ekim'i üç yazıda derliyoruz. [Serinin ilk yazısında](eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md) ajan sürülerini ve filolarını, Hugging Face olayının Mayıs'a uzanan izlerini anlatmıştık. Bu yazıda aynı haftalarda yapay zekâ laboratuvarlarının içinden gelen uyarıları, Anthropic'in CEO'su Dario Amodei'nin yavaşlama çağrısını ve hükümetlerin bunlara verdiği tepkileri derliyoruz.
 
@@ -25,13 +25,13 @@ Aynı gece Anthropic'in [hizalama (alignment)](/tr/sozluk/) stres testi ekibini 
 
 Ana akım medya bu açıklamaları şaşırtıcı buldu ve konu kısa sürede geniş bir kitleye ulaştı: Coxon'un paylaşımı bir günde [100 milyondan fazla kez görüntülendi](https://cnycentral.com/news/nation-world/few-dispute-researchers-warning-that-ai-poses-threat-to-human-life-anthropic-open-ai-decade). 13–15 Eylül'de yapılan [bir Politico anketinde](https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087) ABD'li yetişkinlerin yüzde 63'ü, ileri yapay zekânın bir gün insanlığı yok etmesi riskini en az “orta” düzeyde gördüğünü söyledi.
 
-![ABD'li yetişkinlerin yüzde 63'ü, ileri yapay zekânın insanlığı yok etme riskini en az “orta” düzeyde görüyor](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/2-kamuoyu.webp)
+![ABD'li yetişkinlerin yüzde 63'ü, ileri yapay zekânın insanlığı yok etme riskini en az “orta” düzeyde görüyor](../static/uploads/2026/11/eylul-ekim-derlemesi-2-kamuoyu.webp)
 
 *Her daire 100 kişiden biri; dolu olanlar riski en az “orta” görenler. Kaynak: 13–15 Eylül'de 2.064 yetişkinle yapılan [Politico anketi](https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087).*
 
 Aslında “önde gelen yapay zekâ şirketlerinde çalışan insanlar böyle felaket tellallığı yaparsa ve herkesin ölebileceğine yönelik açıklamalar yaparsa tabii ki kamuoyu bunu çok daha ciddiye alır” diyebilirsiniz. Fakat asıl enteresan olan, açıklamaları yapanların çoğunun aynı kaygıyı yıllardır dile getiriyor olması. Sam Altman, OpenAI'ı kurmadan aylar önce, 2015'te yazdığı [bir blog yazısında](https://blog.samaltman.com/machine-intelligence-part-1) insanüstü makine zekâsının geliştirilmesini “insanlığın varlığını sürdürmesine yönelik muhtemelen en büyük tehdit” olarak nitelemişti. 2023'te ise Altman, Dario Amodei, Demis Hassabis ve yapay zekânın öncülerinden Yoshua Bengio, yapay zekâ kaynaklı yok olma riskini azaltmanın salgınlar ve nükleer savaş gibi risklerle birlikte küresel bir öncelik olması gerektiğini söyleyen [tek cümlelik bir bildiriyi](https://www.safe.ai/work/statement-on-ai-risk) imzalamıştı.
 
-![Bugün laboratuvarları yönetenler aynı kaygıyı yıllardır dile getiriyor](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/2-yillardir-soyluyorlar.webp)
+![Bugün laboratuvarları yönetenler aynı kaygıyı yıllardır dile getiriyor](../static/uploads/2026/11/eylul-ekim-derlemesi-2-yillardir-soyluyorlar.webp)
 
 *Kaynak: [Altman'ın blog yazısı](https://blog.samaltman.com/machine-intelligence-part-1), [Center for AI Safety bildirisi](https://www.safe.ai/work/statement-on-ai-risk), [Pacing the Frontier bildirisi](https://pacingthefrontier.com). Altman'ın sözü İngilizce aslından çevrildi: “Development of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.”*
 
@@ -89,7 +89,7 @@ Laboratuvar çalışanlarının uyarılarının bir pazarlama stratejisi olduğu
 
 Laboratuvarlardan gelen uyarılara hükümetler çok farklı tepkiler verdi. Seride andığımız adımları aşağıda hukuki etkilerine göre sıraladık.
 
-![Seride andığımız 16 siyasi adımdan yalnızca ikisi kısmen bağlayıcı](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/2-hukuki-etki.webp)
+![Seride andığımız 16 siyasi adımdan yalnızca ikisi kısmen bağlayıcı](../static/uploads/2026/11/eylul-ekim-derlemesi-2-hukuki-etki.webp)
 
 *Kaynak: [Beyaz Saray'ın bilgi notu](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/), [TNW'nin haberi](https://thenextweb.com/news/trump-truth-social-ai-hoax-posts-amodei-vance-johnson), [Al Jazeera'nın haberi](https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development), [PBS'in haberi](https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks), [Lieu'nun açıklaması](https://lieu.house.gov/media-center/in-the-news/house-lawmakers-introduce-bipartisan-ai-kill-switch-bill-following-openai), [Van Hollen'in mektubu](https://www.vanhollen.senate.gov/imo/media/doc/91026vanhollenastraopenailetter.pdf), [Banks'in açıklaması](https://www.banks.senate.gov/news/in-the-news/ai-tech-brief-a-legal-shield-for-pacing/), [Sanders'ın açıklaması](https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/), [Tech Policy Press'in oturum haberi](https://www.techpolicy.press/senate-hearing-weighs-threats-from-unrestrained-ai-agents-after-openai-hack/), [Roll Call'un haberi](https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/), [Law360'ın haberi](https://www.law360.com/articles/2527537), [CTV News'in FTC haberi](https://www.ctvnews.ca/business/article/ftc-opens-probe-into-ai-giants-including-anthropic-and-openai/), [Axios'un FTC haberi](https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai), [ABC News'in (Avustralya) haberi](https://www.abc.net.au/news/2026-09-17/china-and-america-ai-arms-race-proceeds-despite-warnings/107160610), [Forbes'un haberi](https://www.forbes.com/sites/siladityaray/2026/09/14/china-pushes-back-against-ai-slowdown-talks-alleging-fearmongering/), [AI Safety in China'nın değerlendirmesi](https://aisafetychina.substack.com/p/brief-29-what-chinas-new-ai-safety), [ITV News'in haberi](https://www.itv.com/news/2026-10-16/china-moves-to-curb-tech-exports-including-for-ai-and-solar)*
 
