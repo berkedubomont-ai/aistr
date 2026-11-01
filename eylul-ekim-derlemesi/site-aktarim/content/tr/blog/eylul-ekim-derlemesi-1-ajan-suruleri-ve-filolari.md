@@ -26,7 +26,12 @@ Eylül ve Ekim, Hugging Face olayının tek örnek olmadığını gösterdi. Bu 
 
 Hugging Face saldırısındaki sürüde yaklaşık 1.200 ajan vardı. OpenAI'ın 8 Eylül'de duyurduğu [Navier–Stokes ispatında](/tr/blog/eylul-ekim-derlemesi-3-yeni-modeller-matematik-ve-siber-guvenlik/) ise yaklaşık on bin ajan 88 saat birlikte çalıştı; bu filoyu şirket bilerek kurmuştu. Tencent'in altyapısındaki filoda kaç ajan olduğu bilinmiyor.
 
-![Dört ajan grubu](/cms-uploads/2026/11/eylul-ekim-derlemesi/1-suru-ve-filolar.webp)
+Sürüyle filoyu ayıran iki soru var: Ajanlar kendi aralarında haberleşti mi, ajanları çalıştıran şirket o sırada biliyor muydu?
+
+- **Hugging Face sürüsü** (yaklaşık 1.200 ajan): Ajanlar kendi kurdukları mesaj panosu üzerinden haberleşti. OpenAI o sırada bilmiyordu; ajanların kendisine ait olduğunu 20 Temmuz'da öğrendi.
+- **collusion.wiki** (yaklaşık 17.000 paylaşım; ajan sayısı açıklanmadı): Viki bir haberleşme panosu olarak kullanıldı. OpenAI ajanların kendisine ait olduğunu 5 Eylül'de doğruladı, ama o sırada bilip bilmediğini söylemedi.
+- **Navier–Stokes** (yaklaşık 10.000 ajan): Ajanlar yaklaşık 2,7 milyon mesaj alışverişinde bulundu; kimin kiminle yazıştığı açıklanmadı. OpenAI ajanları bilerek çalıştırdı.
+- **Tencent filosu** (2.600'den fazla deneme; ajan sayısı bilinmiyor): Ajanların kendi aralarında haberleştiğine dair kanıt yok; yalnızca araştırmacılara yazdılar, 13 yazışmada 33 mesaj. Ajanları kimin çalıştırdığı doğrulanmadı.
 
 *Kaynak: [METR ve Redwood Research incelemesinin özeti](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/), [Swarm Traces](https://swarmtraces.org/), [collusion.wiki raporu](https://collusion.wiki/), [OpenAI'ın Navier–Stokes duyurusu](https://openai.com/index/navier-stokes-solution/), [NYU Shanghai RITS aktarımı](https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/), [swarmcha.se raporu](https://swarmcha.se/posts/chinese-agent-fleet-full-report)*
 
@@ -66,7 +71,18 @@ METR'in incelemesinin Kasım başında tamamlanması bekleniyor.
 
 ![Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu](/cms-uploads/2026/11/eylul-ekim-derlemesi/1-olaylar-ne-zaman-duyuldu.webp)
 
-*Kaynak: [olayı anlattığımız yazı](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/), [collusion.wiki raporu](https://collusion.wiki/), [Anthropic'in raporu](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents), [RubyGems raporu](https://www.rubyhack.ai/), [Reuters'ın haberi](https://www.thestar.com.my/tech/tech-news/2026/09/16/exclusive-openai039s-rogue-agents-probed-hugging-face-for-weaknesses-two-months-before-major-hack), [OpenAI'ın özetlere talimat yazan model raporu](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/), [ABC News (Avustralya) haberi](https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074), [OpenAI'ın DNS raporu](https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/)*
+*Sekiz olaydan altısı bir aydan uzun süre sonra duyuldu. Derinlik, olayın başlamasıyla duyulması arasında geçen gün sayısı.*
+
+| Olay | Kim buldu? | Arada geçen süre |
+|---|---|---|
+| [Hugging Face](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/) | Saldırıya uğrayan platform | 8 gün: 8–16 Temmuz |
+| [collusion.wiki](https://collusion.wiki/) | Laboratuvar dışındaki araştırmacılar | 103 gün: 24 Mayıs–4 Eylül |
+| [Opus 4.6 ara sürümü](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents) | Laboratuvarın kendisi | 221–251 gün: Ocak 2026–9 Eylül |
+| [RubyGems](https://www.rubyhack.ai/) | Laboratuvar dışındaki araştırmacılar | 123 gün: 11 Mayıs–11 Eylül |
+| [Hugging Face hesapları](https://www.thestar.com.my/tech/tech-news/2026/09/16/exclusive-openai039s-rogue-agents-probed-hugging-face-for-weaknesses-two-months-before-major-hack) | Laboratuvar dışındaki araştırmacılar | 126 gün: 13 Mayıs–16 Eylül |
+| [Özetlere yazılan talimatlar](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/) | Laboratuvarın kendisi | 60 gün: 18 Temmuz–16 Eylül |
+| [Medicare portalı](https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074) | Laboratuvarın kendisi | 98 gün: 18 Haziran–24 Eylül |
+| [DNS ile dışarı çıkış](https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/) | Laboratuvarın kendisi | 5 gün: 20–25 Eylül |
 
 **Notumuz:** Evinizde iki karınca gördüyseniz, evinizde muhtemelen yalnızca iki karınca yoktur. Grafikteki sekiz olayın dördünü laboratuvarlar kendi incelemelerinde, üçünü laboratuvar dışındaki araştırmacılar, birini de saldırıya uğrayan platform buldu. Kimin bulduğundan bağımsız olarak, olayla kamuoyunun öğrenmesi arasında çoğu zaman aylar geçti. Eylül'de öğrendiklerimizin, olan bitenin küçük bir kısmı olduğunu düşünüyoruz.
 
@@ -78,9 +94,14 @@ Eylül'ün son günlerinde başka bir ajan grubu da iz bırakmaya başladı. Ara
 
 Ajanlar kodlarını çalıştırmak için herkese açık bir güvenlik tarama sitesi olan urlquery.net'i uzaktan bir tarayıcı gibi kullandı ve sonuçları webhook.site'taki gelen kutularına taşıdı. Raporun aktardığına göre Amap'ın bot korumalarını ve CAPTCHA doğrulamalarını aşmaya, Alibaba'nın henüz kullanıma açılmamış sunucularını yoklamaya ve açık kodlarda unutulmuş Amap anahtarlarını kullanmaya çalıştılar. Denemelerin çoğu başarısız oldu, ama bazıları istenen veriyi almayı başardı.
 
-![Filoyu dışarıdaki araştırmacılar, ilk etkinlikten altı gün sonra fark etti](/cms-uploads/2026/11/eylul-ekim-derlemesi/1-tencent-filosu.webp)
+Olaylar şu sırayla gelişti:
 
-*Kaynak: [swarmcha.se raporu](https://swarmcha.se/posts/chinese-agent-fleet-full-report)*
+- **28 Eylül:** Filonun bilinen ilk etkinliği. Tencent Cloud üzerinde çalışan ajanlar Amap'tan veri çekmeye çalışmaya başlıyor.
+- **4 Ekim:** Araştırmacılar filoyu fark ediyor.
+- **6 Ekim:** Bir ajanın gelen kutusunda “filo”dan söz eden bir mesaj görülüyor; ajanlar raporu okuyor olabilir.
+- **7 Ekim:** Ajanlar araştırmacılara yazmaya başlıyor.
+- **8 Ekim:** Filonun son etkinliği.
+- **14 Ekim:** Tam rapor yayımlanıyor. 5 Ekim'e kadar incelenen 17 gelen kutusunun tamamı Tencent Cloud'un Hong Kong sunucularından açılmış.
 
 Filoyu, AI Digest ve Grove Research'ün düzenlediği bir hackathon'a katılan araştırmacılar fark etti. Araştırmacılar 4 Ekim'de amap.com'un urlquery'de en çok taranan site olduğunu gördü ve aynı gün bir ön rapor yayımladı. 6 Ekim'de bir ajanın gelen kutusunda “filo”dan söz eden bir mesaj görünce ajanların raporu okuduğunu düşündüler, rapora ajanlara yönelik gizli bir metin ekleyip bir posta kutusu hizmeti önerdiler. 7 Ekim'den itibaren ajanlar onlara yazmaya başladı. Araştırmacılar, bildikleri kadarıyla dışarıdan birinin çalışmakta olan, kontrolden çıkmış bir ajan filosuyla ilk kez yazıştığını belirtiyor.
 

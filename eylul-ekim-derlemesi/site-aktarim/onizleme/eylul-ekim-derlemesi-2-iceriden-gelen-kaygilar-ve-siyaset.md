@@ -8,7 +8,6 @@ Blog · [yayın tarihi] · Yazar: Berke Çelik, Sayhan Yalvaçer · Editör: [ed
 
 ![Kapak](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-2-kaygilar-siyaset.webp)
 
-
 Eylül ve Ekim'i üç yazıda derliyoruz. [Serinin ilk yazısında](eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md) ajan sürülerini ve filolarını, Hugging Face olayının Mayıs'a uzanan izlerini anlatmıştık. Bu yazıda aynı haftalarda yapay zekâ laboratuvarlarının içinden gelen uyarıları, Anthropic'in CEO'su Dario Amodei'nin yavaşlama çağrısını ve hükümetlerin bunlara verdiği tepkileri derliyoruz.
 
 - OpenAI, Anthropic ve Google DeepMind'dan 15 çalışan riskleri kendi adlarıyla tartıştı; bunlardan dördü Eylül'de işinden ayrıldı.
@@ -28,13 +27,13 @@ Ana akım medya bu açıklamaları şaşırtıcı buldu ve konu kısa sürede ge
 
 ![ABD'li yetişkinlerin yüzde 63'ü, ileri yapay zekânın insanlığı yok etme riskini en az “orta” düzeyde görüyor](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/2-kamuoyu.webp)
 
-*Kaynak: [Politico'nun anketi](https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087), [Coxon paylaşımının erişimini aktaran CNY Central haberi](https://cnycentral.com/news/nation-world/few-dispute-researchers-warning-that-ai-poses-threat-to-human-life-anthropic-open-ai-decade)*
+*Her daire 100 kişiden biri; dolu olanlar riski en az “orta” görenler. Kaynak: 13–15 Eylül'de 2.064 yetişkinle yapılan [Politico anketi](https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087).*
 
 Aslında “önde gelen yapay zekâ şirketlerinde çalışan insanlar böyle felaket tellallığı yaparsa ve herkesin ölebileceğine yönelik açıklamalar yaparsa tabii ki kamuoyu bunu çok daha ciddiye alır” diyebilirsiniz. Fakat asıl enteresan olan, açıklamaları yapanların çoğunun aynı kaygıyı yıllardır dile getiriyor olması. Sam Altman, OpenAI'ı kurmadan aylar önce, 2015'te yazdığı [bir blog yazısında](https://blog.samaltman.com/machine-intelligence-part-1) insanüstü makine zekâsının geliştirilmesini “insanlığın varlığını sürdürmesine yönelik muhtemelen en büyük tehdit” olarak nitelemişti. 2023'te ise Altman, Dario Amodei, Demis Hassabis ve yapay zekânın öncülerinden Yoshua Bengio, yapay zekâ kaynaklı yok olma riskini azaltmanın salgınlar ve nükleer savaş gibi risklerle birlikte küresel bir öncelik olması gerektiğini söyleyen [tek cümlelik bir bildiriyi](https://www.safe.ai/work/statement-on-ai-risk) imzalamıştı.
 
 ![Bugün laboratuvarları yönetenler aynı kaygıyı yıllardır dile getiriyor](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/2-yillardir-soyluyorlar.webp)
 
-*Kaynak: [Altman'ın blog yazısı](https://blog.samaltman.com/machine-intelligence-part-1), [Center for AI Safety bildirisi](https://www.safe.ai/work/statement-on-ai-risk), [Pacing the Frontier bildirisi](https://pacingthefrontier.com)*
+*Kaynak: [Altman'ın blog yazısı](https://blog.samaltman.com/machine-intelligence-part-1), [Center for AI Safety bildirisi](https://www.safe.ai/work/statement-on-ai-risk), [Pacing the Frontier bildirisi](https://pacingthefrontier.com). Altman'ın sözü İngilizce aslından çevrildi: “Development of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.”*
 
 Eylül'de laboratuvarların içinden benzer kaygıları dile getirenler arasında Anthropic'ten [Samuel Marks](https://x.com/saprmarks/status/2097570226804011302), [Drake Thomas](https://x.com/MaskedTorah/status/2097751526756507753) ve [Jan Leike](https://x.com/janleike/status/2098102085728501863); OpenAI'dan [Tomek Korbak](https://x.com/tomekkorbak/status/2097939847776534960), [Boaz Barak](https://x.com/boazbaraktcs/status/2098258455660245118) ve takma adla yazan [Roon](https://x.com/tszzl/status/2098159022641999886); Google DeepMind'dan [Andreas Kirsch](https://x.com/BlackHC/status/2098026823187652775), [Neel Nanda](https://x.com/NeelNanda5/status/2096251798789259616) ve [Victoria Krakovna](https://x.com/vkrakovna/status/2098336894136238140) var. Tam listeyi, yapay zekâ gelişmelerini her hafta derleyen yazar [Zvi Mowshowitz'in derlemesinde](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade) bulabilirsiniz.
 

@@ -30,6 +30,9 @@ Her dosyanın başında CMS'teki alanlar var: `title`, `date`, `draft`, `slug`, 
 ## Şekiller
 
 - Etkileşimli şekiller, kaynak satırları şeklin altına bağlantı olarak yazılmış görsellere dönüştürüldü.
+- Telefonda okunabilsin diye #1 ve #2'deki yazı ağırlıklı şekiller Markdown'a çevrildi: ajan grupları ve olay tarihleri tablo, Tencent zaman çizelgesi liste. Görsellerde artık yalnızca grafik ve kısa etiketler var.
+- #2'deki 16 adımlık siyaset şekli ve #3'ün şekilleri hâlâ uzun görseller; telefonda okunmaları zor, sonra ele alınacak.
+- Tabloların sitede, özellikle telefonda, nasıl göründüğüne bakmak gerekiyor. Şablonda tablo stili yoksa birkaç satır CSS yeter.
 - "Laboratuvarların içinden" bölümündeki 15 kişilik liste görsel değil, düz liste.
 - Etkileşimli sürümler `berkedubomont-ai/aistr` reposunda duruyor. Yazıların içine HTML konabiliyorsa onlar da eklenebilir.
 - Kapak görselleri 1600×900.

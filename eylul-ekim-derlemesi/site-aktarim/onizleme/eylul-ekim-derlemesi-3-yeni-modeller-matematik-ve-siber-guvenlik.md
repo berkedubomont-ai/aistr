@@ -8,7 +8,6 @@ Blog · [yayın tarihi] · Yazar: Berke Çelik, Sayhan Yalvaçer · Editör: [ed
 
 ![Kapak](../static/cms-uploads/2026/11/eylul-ekim-derlemesi/kapak-3-yeni-modeller.webp)
 
-
 Eylül ve Ekim'i üç yazıda derliyoruz. [İlk yazıda](eylul-ekim-derlemesi-1-ajan-suruleri-ve-filolari.md) ajan sürülerini ve filolarını, [ikincisinde](eylul-ekim-derlemesi-2-iceriden-gelen-kaygilar-ve-siyaset.md) laboratuvarların içinden gelen kaygıları ve siyaseti anlatmıştık. Bu yazıda Eylül ve Ekim'de yayımlanan modelleri, yayımlanmayan bir modeli, iç modellerin matematikteki sonuçlarını ve siber güvenlik tarafındaki gelişmeleri derliyoruz.
 
 - Eylül ve Ekim'de dört şirket sekiz model yayımladı; Meta'nın Muse Spark Open'ı açık ağırlıklı.
