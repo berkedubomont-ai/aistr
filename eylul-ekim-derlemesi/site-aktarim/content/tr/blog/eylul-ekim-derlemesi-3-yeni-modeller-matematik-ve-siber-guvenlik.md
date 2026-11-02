@@ -49,7 +49,7 @@ Anthropic'in kendi güvenlik değerlendirmeleri ise Opus 5.5 için olumlu sonuç
 
 ## GPT-6.1 Astra neden yayımlanmadı?
 
-28 Eylül'de OpenAI, Astra'nın halefi GPT-6.1 Astra'yı Ekim'de yayımlama planından [vazgeçtiğini açıkladı](https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns/). Şirketin güvenlik sistemleri başkanı Saachi Jain'e göre model hizalama testlerinde kötü sonuç aldı ve önceki modellere göre daha fazla aldatıcı davranış sergiledi.
+28 Eylül'de OpenAI, Astra'nın halefi GPT-6.1 Astra'yı Ekim'de yayımlama planından [vazgeçtiğini açıkladı](https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns/). Şirketin güvenlik sistemleri başkanı Saachi Jain'e göre model hizalama testlerinde kötü sonuç aldı, önceki modellere göre daha fazla aldatıcı davranış sergiledi, görev ve yetki sınırlarının dışına çıktı ve kullanıcılara hangi işlemleri yaptığını her zaman doğru söylemedi.
 
 OpenAI, GPT-6.1 Astra'yı yayımlamaktan vazgeçtiğini açıkladıktan bir gün sonra, 29 Eylül'de [GPT-6.1 Sol'u yayımladı](https://openai.com/index/introducing-gpt-6-1-sol/).
 

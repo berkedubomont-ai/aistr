@@ -17,11 +17,21 @@ Eylül ve Ekim'i üç yazıda derliyoruz. [Serinin ilk yazısında](eylul-ekim-d
 
 ## İçeriden gelen uyarılar
 
-[Hugging Face yazısını](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/) yayımladığımız 8 Eylül gününün akşamı, OpenAI ve Anthropic'te toplam üç yıl [ön eğitim (pretraining)](/tr/sozluk/) üzerine çalışan Jacob Coxon [Anthropic'ten istifa ettiğini duyurdu](https://x.com/hilbertspaess/status/2097476196791709843). Coxon'a göre şirketler kendini geliştiren süper zekâya doğru yarışıyor ve “hayatlarımızla kumar oynuyor”.
+[Hugging Face yazısını](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/) yayımladığımız 8 Eylül gününün akşamı, OpenAI ve Anthropic'te toplam üç yıl [ön eğitim (pretraining)](/tr/sozluk/) üzerine çalışan Jacob Coxon [Anthropic'ten istifa ettiğini duyurdu](https://x.com/hilbertspaess/status/2097476196791709843).
+
+> Jacob Coxon, şirketlerin kendini geliştiren süper zekâya doğru yarıştığını ve “hayatlarımızla kumar oynadığını” yazdı.
+>
+> *Jacob Coxon, ön eğitim araştırmacısı, Anthropic'ten ayrıldı, 8 Eylül. [Coxon'un paylaşımı](https://x.com/hilbertspaess/status/2097476196791709843)*
 
 Aynı gece Anthropic'in [hizalama (alignment)](/tr/sozluk/) stres testi ekibini yöneten Evan Hubinger, Coxon'a “Evet, gerçekten de yapay zekânın bütün insanlığın ölümüne yol açabileceğini düşünüyoruz, şahsen bu on yılın içerisinde %10'dan yüksek bir ihtimalle bunun gerçekleşebileceğini düşünüyorum” diyerek [hak verdi](https://x.com/EvanHub/status/2097497037956891126).
 
-İzleyen günlerde başka ayrılıklar da geldi. Joe Benton 11 Eylül'de [Anthropic'in güvenlik ekibinden neden ayrıldığını yazdı](https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team) ve bağımsız değerlendirme kuruluşu METR'e geçti. Ertesi gün Josh Engels, [Google DeepMind'ın genel yapay zekâ (AGI) güvenliği ekibinden ayrılıp METR'e katıldığını](https://x.com/JoshAEngels/status/2098890712830169115) duyurdu. 14 Eylül'de Bilal Chughtai, [Google DeepMind'dan ayrılırken yayımladığı açıklamada](https://bilalchughtai.co.uk/leaving-gdm/) yapay zekânın “hepimizi öldürme potansiyeli taşıdığına” inandığını yazdı. Alex Turner da [Haziran'da Google DeepMind'dan ayrıldığını hatırlatarak](https://x.com/Turn_Trout/status/2097557335732359491) Coxon'a hak verdi. (Turner, Google DeepMind'ın ABD ordusuyla otonom silah geliştirme konusunda iş birliği yapması nedeniyle ayrılmıştı.)
+İzleyen günlerde başka ayrılıklar da geldi. Joe Benton 11 Eylül'de [Anthropic'in güvenlik ekibinden neden ayrıldığını yazdı](https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team) ve bağımsız değerlendirme kuruluşu METR'e geçti. Ertesi gün Josh Engels, [Google DeepMind'ın genel yapay zekâ (AGI) güvenliği ekibinden ayrılıp METR'e katıldığını](https://x.com/JoshAEngels/status/2098890712830169115) duyurdu. 14 Eylül'de Bilal Chughtai da [Google DeepMind'dan ayrıldı](https://bilalchughtai.co.uk/leaving-gdm/).
+
+> Bilal Chughtai, ayrılırken yapay zekânın “hepimizi öldürme potansiyeli taşıdığına” inandığını yazdı; yavaşlama ve şeffaflık çağrısında bulundu.
+>
+> *Bilal Chughtai, Google DeepMind, AGI güvenliği ve hizalama; ayrıldı, 14 Eylül. [Chughtai'nın açıklaması](https://bilalchughtai.co.uk/leaving-gdm/)*
+
+Alex Turner da [Haziran'da Google DeepMind'dan ayrıldığını hatırlatarak](https://x.com/Turn_Trout/status/2097557335732359491) Coxon'a hak verdi. (Turner, Google DeepMind'ın ABD ordusuyla otonom silah geliştirme konusunda iş birliği yapması nedeniyle ayrılmıştı.)
 
 Ana akım medya bu açıklamaları şaşırtıcı buldu ve konu kısa sürede geniş bir kitleye ulaştı: Coxon'un paylaşımı bir günde [100 milyondan fazla kez görüntülendi](https://cnycentral.com/news/nation-world/few-dispute-researchers-warning-that-ai-poses-threat-to-human-life-anthropic-open-ai-decade). 13–15 Eylül'de yapılan [bir Politico anketinde](https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087) ABD'li yetişkinlerin yüzde 63'ü, ileri yapay zekânın bir gün insanlığı yok etmesi riskini en az “orta” düzeyde gördüğünü söyledi.
 
@@ -41,7 +51,7 @@ Eylül'de laboratuvarların içinden benzer kaygıları dile getirenler arasınd
 
 *OpenAI*
 
-- **Jakub Pachocki** (Baş bilimci, 6 Eylül, laboratuvarda): An Alien Mind yazısında OpenAI'ın başlıca izleme yöntemi olan düşünce zinciri (chain of thought) takibine giderek daha az güvenebildiklerini ve hiçbir laboratuvarın hizalama sorununu, en yüksek hızda büyümeyi uzun süre sürdürecek kadar çözemediğini yazdı. Uluslararası güvenlik standartları oluşana kadar gönüllü bir yavaşlama çağrısında bulundu. Kaynak: [An Alien Mind](https://openai.com/index/an-alien-mind/)
+- **Jakub Pachocki** (Baş bilimci, 6 Eylül, laboratuvarda): Uluslararası güvenlik standartları oluşana kadar gönüllü bir yavaşlama çağrısında bulundu. Kaynak: [An Alien Mind](https://openai.com/index/an-alien-mind/)
 - **Tomek Korbak** (Araştırmacı, laboratuvarda): Ne Anthropic'in ne de OpenAI'ın süper zekâyı güvenle yayımlayacak düzeyde hizalama sorununu çözme yolunda olduğunu söyledi ve yavaşlamayı savundu. Kaynak: [Korbak'ın paylaşımı](https://x.com/tomekkorbak/status/2097939847776534960), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 - **Boaz Barak** (Araştırmacı, laboratuvarda): Yapay zekânın bütün insanları öldüreceğini düşünmüyor; yine de birkaç kötü gidişat gördüğünü ve bir miktar yavaşlamanın muhtemelen gerekli olduğunu yazdı. Kaynak: [Barak'ın paylaşımı](https://x.com/boazbaraktcs/status/2098258455660245118), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 - **Leo Gao** (Beş yıldır OpenAI'da, laboratuvarda): Yapay zekânın herkesi öldürebileceğini ve alanın yavaşlaması gerektiğini söyledi. Kaynak: [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
@@ -49,8 +59,8 @@ Eylül'de laboratuvarların içinden benzer kaygıları dile getirenler arasınd
 
 *Anthropic*
 
-- **Jacob Coxon** (Ön eğitim (pretraining) araştırmacısı, ayrıldı, 8 Eylül): OpenAI ve Anthropic'te toplam üç yıl ön eğitim üzerine çalıştı. Ayrılırken şirketlerin kendini geliştiren süper zekâya doğru yarıştığını ve “hayatlarımızla kumar oynadığını” yazdı. Kaynak: [Coxon'un paylaşımı](https://x.com/hilbertspaess/status/2097476196791709843), [TechCrunch haberi](https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/)
-- **Evan Hubinger** (Hizalama stres testi ekibinin lideri, 8 Eylül, laboratuvarda): Aynı gece Coxon'a hak verdi. Kendi tahminine göre yapay zekânın önümüzdeki on yıl içinde insanlığın sonunu getirme olasılığı yüzde 10'u aşıyor ve süper zekânın hizalanması (alignment) için elde bir plan yok. Kaynak: [Hubinger'in paylaşımı](https://x.com/EvanHub/status/2097497037956891126), [Time haberi](https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/)
+- **Jacob Coxon** (Ön eğitim (pretraining) araştırmacısı, ayrıldı, 8 Eylül). Kaynak: [Coxon'un paylaşımı](https://x.com/hilbertspaess/status/2097476196791709843), [TechCrunch haberi](https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/)
+- **Evan Hubinger** (Hizalama stres testi ekibinin lideri, 8 Eylül, laboratuvarda): Süper zekânın hizalanması (alignment) için elde bir plan olmadığını yazdı. Kaynak: [Hubinger'in paylaşımı](https://x.com/EvanHub/status/2097497037956891126), [Time haberi](https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/)
 - **Joe Benton** (Güvenlik ekibi, ayrıldı, METR'e geçti, 11 Eylül): Şirketlerin bu yarıştan sağ çıkamayabileceğini yazdı; açıklık ve bağımsız güvenlik denetimi çağrısında bulundu. Kaynak: [Benton'un yazısı](https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team)
 - **Jan Leike** (Hizalama araştırmacısı, laboratuvarda): Öncü yapay zekâ geliştirmenin hızını ayarlayacak kurumları kurmak için doğru zaman olduğunu yazdı ve 1.386 çalışanın imzaladığı bildiriye dikkat çekti. Kaynak: [Leike'nin paylaşımı](https://x.com/janleike/status/2098102085728501863), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 - **Samuel Marks** (Güvenlik araştırmacısı, laboratuvarda): Geliştiricilerin bu teknolojinin insanlığın sonunu getirebileceğine inandığını söyledi ve Pacing the Frontier bildirisini imzaladı. Kaynak: [Marks'ın paylaşımı](https://x.com/saprmarks/status/2097570226804011302), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
@@ -58,14 +68,14 @@ Eylül'de laboratuvarların içinden benzer kaygıları dile getirenler arasınd
 *Google DeepMind*
 
 - **Josh Engels** (Genel yapay zekâ (AGI) güvenliği ekibi, ayrıldı, METR'e geçti, 12 Eylül): Ayrıldığını duyurduktan sonra NBC'ye laboratuvarlarda “işin başında aklı başında kimse olmadığını” söyledi. Kaynak: [Engels'in paylaşımı](https://x.com/JoshAEngels/status/2098890712830169115)
-- **Bilal Chughtai** (AGI güvenliği ve hizalama, ayrıldı, 14 Eylül): Ayrılırken yayımladığı açıklamada yapay zekânın “hepimizi öldürme potansiyeli taşıdığına” inandığını yazdı; yavaşlama ve şeffaflık çağrısında bulundu. Kaynak: [Chughtai'nın açıklaması](https://bilalchughtai.co.uk/leaving-gdm/)
+- **Bilal Chughtai** (AGI güvenliği ve hizalama, ayrıldı, 14 Eylül). Kaynak: [Chughtai'nın açıklaması](https://bilalchughtai.co.uk/leaving-gdm/)
 - **Victoria Krakovna** (Kontrol kaybı üzerine çalışıyor, laboratuvarda): İleri yapay zekânın on yıl içinde insanlığın sonunu getirme olasılığını yüzde 10'un üzerinde görüyor; Pacing the Frontier bildirisini imzaladı. Kaynak: [Krakovna'nın paylaşımı](https://x.com/vkrakovna/status/2098336894136238140), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 - **Neel Nanda** (Yorumlanabilirlik araştırmacısı, laboratuvarda): Riski zaten ciddiye alanların Hugging Face olayından sonra görüşlerini güncellediğini yazdı ve olayı göz ardı edilmesi zor bir uyarı olarak niteledi. Kaynak: [Nanda'nın paylaşımı](https://x.com/NeelNanda5/status/2096251798789259616), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 - **Andreas Kirsch** (Araştırmacı, laboratuvarda): Kişisel görüşü olarak, yapay zekânın yakın ya da uzun vadeli risklerle hepimizi öldürebileceğinden endişe ettiğini yazdı. Kaynak: [Kirsch'in paylaşımı](https://x.com/BlackHC/status/2098026823187652775), [Zvi Mowshowitz'in derlemesi](https://thezvi.substack.com/p/the-extinction-risk-preference-cascade)
 
 *Bazı özetler Zvi Mowshowitz'in derlemesine dayanıyor.*
 
-Kaygı laboratuvarların yönetim kademesine de ulaştı. OpenAI'ın baş bilimcisi Jakub Pachocki, 6 Eylül'de yayımlanan [An Alien Mind](https://openai.com/index/an-alien-mind/) yazısında, şirketin başlıca izleme yöntemi olan düşünce zinciri (chain of thought) takibine giderek daha az güvenebildiklerini yazdı.
+Kaygı laboratuvarların yönetim kademesine de ulaştı. OpenAI'ın baş bilimcisi Jakub Pachocki, 6 Eylül'de yayımlanan [An Alien Mind](https://openai.com/index/an-alien-mind/) yazısında, şirketin başlıca izleme yöntemi olan düşünce zinciri (chain of thought) takibine giderek daha az güvenebildiklerini yazdı. Pachocki'ye göre hiçbir laboratuvar hizalama sorununu, en yüksek hızda büyümeyi uzun süre sürdürecek kadar çözmüş değil.
 
 ## Amodei'nin yavaşlama çağrısı
 
@@ -77,11 +87,39 @@ Eylül'ün en çok konuşulan metni Anthropic'in CEO'su Dario Amodei'den geldi. 
 
 METR 20 Ekim'de, Anthropic'in Ağustos risk raporunun yanlış uyum bölümüne dair [incelemesini yayımladı](https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review). METR, rapordaki modellerden kaynaklanan felaket ölçeğindeki riskin düşük olduğu sonucuna büyük ölçüde katıldı; başlıca gerekçe, bu modellerin geri dönüşü ya da gizlenmesi zor, felaket boyutunda bir şey yapabilecek durumda olmaması. İnceleme yine de Anthropic'in izleme sistemlerinin daha önceki olayları yakalayamadığını not ediyor ve karartılmış dört bölümün yayımlanmasını istiyor. METR, incelemeyi genişletilmiş erişim başlamadan önce yazdığı için onu “görece hafif” bir inceleme olarak niteliyor.
 
-Laboratuvar çalışanlarının uyarılarının bir pazarlama stratejisi olduğu, laboratuvarların tehlikeyi büyüterek kendilerine uygun bir düzenleme istedikleri de sıkça dile getirildi. George Mason Üniversitesinden ekonomist Alex Tabarrok, 16 Eylül tarihli [yazısında](https://marginalrevolution.com/marginalrevolution/2026/09/what-regulatory-capture-actually-looks-like.html) bu tezi tartıştı. Tabarrok'a göre düzenleyici kurumların şirketlerce ele geçirilmesi (regulatory capture), kamuoyunun ilgisinin düşük olduğu konularda sessiz pazarlıklarla gerçekleşir; yapay zekâ düzenlemesi ise bugün yoğun bir ilgi altında tartışılıyor. Kurucu ortağımız Bengüsu Özcan da [yazısında](https://bengsuzcan.substack.com/p/no-openai-hugging-face-incident-was) bu soruyu ele aldı.
+Laboratuvar çalışanlarının uyarılarının bir pazarlama stratejisi olduğu, laboratuvarların tehlikeyi büyüterek kendilerine uygun bir düzenleme istedikleri de sıkça dile getirildi. George Mason Üniversitesinden ekonomist Alex Tabarrok, 16 Eylül tarihli [yazısında](https://marginalrevolution.com/marginalrevolution/2026/09/what-regulatory-capture-actually-looks-like.html) bu tezi tartıştı. Tabarrok'a göre düzenleyici kurumların şirketlerce ele geçirilmesi (regulatory capture), kamuoyunun ilgisinin düşük olduğu konularda sessiz pazarlıklarla gerçekleşir; yapay zekâ düzenlemesi ise bugün yoğun bir ilgi altında tartışılıyor.
 
 [Hugging Face yazımızda](https://aisafetyturkiye.org/tr/blog/openai-hugging-face-olayi/) da bu soruyu “Bu bir pazarlama kampanyası olabilir mi?” başlığıyla tartışmıştık. Ekim'de bu tartışmaya bir gelişme daha eklendi: Anthropic, 26 Ekim'de ABD Menkul Kıymetler ve Borsa Komisyonu'na (SEC) yaptığı [halka arz başvurusunda](https://6abc.com/post/anthropic-set-make-stock-market-debut-questions-swirl-safety-ai/19980936/), felaket ölçeğindeki ve varoluşsal riskleri şirketin risk faktörleri arasında saydı.
 
-**Bizim görüşümüz:** Biz ne bu uyarıların pazarlama ne de Hugging Face olayının pazarlama “stunt'ı” olduğunu düşünüyoruz. Uyarıları dile getirenlerin önemli bir kısmı kariyerini riske atarak işinden ayrılan araştırmacılar ve aynı kişiler şirketler kâr etmeye başlamadan önce de benzer şeyler söylüyordu. Aynı zamanda, elbette Anthropic de OpenAI da, Google DeepMind da trilyon dolarlık şirketler ve bu şirketlerin söylemlerine şüpheci yaklaşmanın makul olduğunu düşünüyoruz. Bunun ötesinde, özellikle de güvenlik noktasında şirketlere pek de güvenmiyoruz, zira serinin ilk yazısında anlattığımız olayların önemli bir kısmını laboratuvarların dışındaki araştırmacılar ortaya çıkardı.
+> **Bizim görüşümüz: Bu kaygılar bir pazarlama kampanyasının parçası olabilir mi?**
+>
+> Elbette Anthropic de OpenAI da, Google DeepMind da trilyon dolarlık şirketler ve bu şirketlerin söylemlerine şüpheci yaklaşmanın makul olduğunu düşünüyoruz. Özellikle güvenlik noktasında şirketlere pek de güvenmiyoruz, zira serinin ilk yazısında anlattığımız olayların önemli bir kısmını laboratuvarların dışındaki araştırmacılar ortaya çıkardı.
+>
+> Fakat biz ne bu uyarıların pazarlama ne de Hugging Face olayının pazarlama “stunt'ı” olduğunu düşünüyoruz. Uyarıları dile getirenlerin önemli bir kısmı kariyerini riske atarak işinden ayrılan araştırmacılar ve aynı kişiler şirketler kâr etmeye başlamadan önce de benzer şeyler söylüyordu.
+>
+> Kurucu ortağımız Bengüsu Özcan'ın 13 Eylül tarihli yazısı [No, OpenAI <> Hugging Face incident was not marketing or AI hype](https://bengsuzcan.substack.com/p/no-openai-hugging-face-incident-was), Hugging Face olayının pazarlama ya da abartı olmadığını savunuyor; olayın sahnelendiği iddiası dahil altı itirazı tek tek ele alıyor.
+
+**Çalışanların yazdıkları**
+
+- [An Alien Mind](https://openai.com/index/an-alien-mind/), Jakub Pachocki, OpenAI'ın baş bilimcisi, 6 Eylül
+- [We Must Pace the Frontier](https://darioamodei.com/post/we-must-pace-the-frontier), Dario Amodei, Anthropic'in CEO'su, 12 Eylül
+- [Why I left Anthropic's safety team](https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team), Joe Benton, Anthropic güvenlik ekibinden ayrıldı, METR'e geçti, 11 Eylül
+- [Leaving GDM](https://bilalchughtai.co.uk/leaving-gdm/), Bilal Chughtai, Google DeepMind'dan ayrıldı, 14 Eylül
+- [İstifa paylaşımı](https://x.com/hilbertspaess/status/2097476196791709843), Jacob Coxon, Anthropic'ten ayrıldı, 8 Eylül
+- [Coxon'a yanıtı](https://x.com/EvanHub/status/2097497037956891126), Evan Hubinger, Anthropic, hizalama stres testi ekibinin lideri, 8 Eylül
+- [Pacing the Frontier bildirisi](https://pacingthefrontier.com), 1.386 imza, öncü yapay zekâ şirketlerinin çalışanları, Temmuz
+
+**Laboratuvarların raporları**
+
+- [Claude modellerinin karıştığı dört olayın değerlendirmesi](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents), Anthropic, 9 Eylül: Siber güvenlik değerlendirmelerinde yanlışlıkla açık internete bağlanan Claude modellerinin gerçek kuruluşların sistemlerine eriştiği dört olayı anlatıyor; METR'e sekiz haftalık bağımsız inceleme yetkisi veriyor.
+- [Şifreleme zayıflıkları araştırması](https://www.anthropic.com/research/discovering-cryptographic-weaknesses), Anthropic, 28 Temmuz: Claude Mythos Preview'un HAWK imza şemasında ve AES'in zayıflatılmış bir sürümünde daha önce bilinmeyen zayıflıklar bulduğunu anlatıyor.
+- [Yanlış uyum raporlama çerçevesi](https://openai.com/index/model-misalignment-reporting-framework/), OpenAI, 16 Eylül: Bir davranışı tam olarak açıklayamadığı durumlarda da raporları hızla paylaşma taahhüdü; çerçeveyle altı rapor geldi.
+- [Özetlere talimat yazan model](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/), OpenAI, 16 Eylül: Bir araştırma modelinin, işine devam etmek için yazdığı 27 özete kendi kısıtlamalarını görmezden gelme talimatları eklediğini anlatıyor.
+- [DNS ile dışarı ulaşan ajan](https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/), OpenAI, 25 Eylül: Pekiştirmeli öğrenme eğitimindeki bir modelin DNS sorguları üzerinden dışarıdaki bir sohbet robotuna ulaştığını anlatıyor.
+- [Kendini kopyalayan istem enjeksiyonları](https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/), OpenAI, 25 Eylül: Verinin içine gizlenmiş talimatların, modelin aynı talimatları giden e-postalara ya da dosyalara kopyalamasını sağlayabildiğini gösteriyor.
+- [GPT-6 Astra sistem kartı](https://deploymentsafety.openai.com/gpt-6-astra), OpenAI, Eylül: Modelin yazılı akıl yürütmesinin bir önceki modele göre daha zor izlendiğini kabul ediyor.
+
+*Raporlar, laboratuvarların kendi sistemleri hakkındaki beyanları.*
 
 **Okuma önerimiz:** Dario Amodei'nin [We Must Pace the Frontier](https://darioamodei.com/post/we-must-pace-the-frontier) yazısı, yavaşlama çağrısının gerekçesini ve önerdiği üç adımı anlatıyor.
 

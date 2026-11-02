@@ -31,6 +31,9 @@ Alanlar sitedeki yazılarla aynı (örnek: `openai-hugging-face-olayi.md`): `tra
 - Sözlük'te karşılığı olmayan terimler (sürü, filo, düşünce zinciri, istem enjeksiyonu, düzenleyici ele geçirme, Lean) düz metin. Sözlük'e eklenebilirler.
 - Başlıklar yalnızca H2 ve H3. İçindekiler'i şablon zaten üretiyor, bu yüzden metne eklemedim.
 - Yazılar arası bağlantılar `/tr/blog/<slug>/` biçiminde.
+- #2'de Coxon'un ve Chughtai'nin sözleri birer alıntı bloğunda (`>`); aynı sözler paragraflarda ve 15 kişilik listede tekrar edilmiyor.
+- #2'deki "Bizim görüşümüz" kutusu da alıntı bloğu olarak yazıldı, Bengüsu'nun yazısının bağlantısı içinde. Temada ayrı bir kutu (callout) stili varsa onunla değiştirilebilir.
+- #2'de "Çalışanların yazdıkları" ve "Laboratuvarların raporları" başlıklı iki okuma listesi var.
 
 ## Şekiller
 
